@@ -14,6 +14,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+    
     ])
   ],
   declarations: [
@@ -25,7 +26,6 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
-
 
 /*
 Copyright Google LLC. All Rights Reserved.
